@@ -20,4 +20,3 @@ def test_full_pipeline_runs_end_to_end():
 
     decision = prep.analyze_quality(df, umbral=0.50)
     assert isinstance(decision, bool)
-
