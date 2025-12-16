@@ -5,6 +5,7 @@ import pandas as pd
 import unicodedata
 import re
 
+
 class DataPreprocessor:
     """
     Clase responsable de la limpieza, generación de banderas de nulos
